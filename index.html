@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="/images/icon.png" type="image/x-icon">
+    <title>TO~DO APP</title>
+</head>
+<body>
+    <div class="container">
+        <div class="todo_app">
+            <h2 class="heading"><img src="/images/icon.png" alt="logo" id="logo">&nbsp;&nbsp;TO~DO LIST</h2>
+            <div class="row">
+                <input type="text" class="task" id="tasks" placeholder="ENTER YOUR TASK">
+                <input type="date" class="task" id="date" placeholder="DATE OF TASK">
+                <input type="time" class="task" id="time" placeholder="DUE TIME OF TASK">
+                <button class="ADD_btn" onclick="addTask()">ADD TASK</button>
+            </div>
+            <ul class="list_container">
+
+            </ul>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
